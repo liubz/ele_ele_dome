@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: "icon";
+  src: url('icon.ttf'); 
+}
+
+.icon {
+  font-family:"icon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weizhixiao:before { content: "\e623"; }
+
+.icon-pingfen:before { content: "\e662"; }
+
+.icon-fanhui:before { content: "\e60d"; }
+

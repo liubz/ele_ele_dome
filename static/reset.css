@@ -1,0 +1,13 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu,select,strong{margin:0;padding:0;outline:none;font-weight: normal}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+body{font-family:"微软雅黑","Microsoft YaHei";font-size:14px;}
+table{border-collapse:collapse;border-spacing:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+input{border:none;outline: none; }
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+a{color:#8D8D8D;text-decoration:none;}
+ul,ol,li{list-style:none;}
+img{ border:none; display: block;}
+.top1px:before{content: "";display: block;height: 1px;width: 100%;border-top: 1px solid #ddd;position: absolute;top: -1px;left: 0px;transform: scaleY(.5);}
+.bottom1px{position: relative;}
+.bottom1px:after{content: "";display: block;height: 1px;width: 100%;border-bottom: 1px solid #ddd;position: absolute;bottom: -1px;left: 0px; transform: scaleY(.5);}
